@@ -103,3 +103,11 @@ itemBuilder: (context,index){
           ],
         ),
       ),
+ // CONNECTION 2: Connect the button to add function
+  floatingActionButton: FloatingActionButton(
+onPressed: addGoal,
+child: const Icon(Icons.add),
+  ),
+  );
+}
+}
