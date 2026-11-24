@@ -53,4 +53,14 @@ setState(() {
 goals.add({'subject': 'Java Programming', 'hours': '2 Hours','done': false,});});
 }
 }
-
+@override
+Widget build(BuildContext context){
+  return Scaffold(
+    // Static: Application bar
+appBar: AppBar(
+  title: const Text('My study planner'),centerTitle: true,
+backgroundColor: const Color.fromARGB(255,14,76,128),
+foregroundColor: Colors.white,
+),
+  )
+}
