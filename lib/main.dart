@@ -24,20 +24,20 @@ class StudyPlannerScreen  extends StatelessWidget {
       // static: Application bar
       appBar: AppBar( title: const Text('My study planner'),
       centerTitle: true,  backgroundColor: const Color.fromARGB(255, 14, 76, 128), foregroundColor: Colors.white,),
-    ),
+    
     // Static: main screen content
     body: Padding(
       padding: const EdgeInsets.all(16.0),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
+      children: [
           // Static: Screen heading
-          const Text('My study Goal,style:TextStyle(fontSize:24,fontWeight:fontWeight.bold,),),
+        const Text(
+          'My study Goal',style: TextStyle(fontWeight: FontWeight.bold,),),],
 
-        ],
-      )
-
-   )
-
+      ],
+      ),
+    ),
+    );
   }
 }
