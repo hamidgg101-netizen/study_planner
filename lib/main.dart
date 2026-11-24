@@ -46,12 +46,11 @@ void  toggleGoal(int index){
   // LOGIC: Delete a goal
 void deleteGoal(int index) {
     setState(() {  goals.removeAt(index); });
-    
+}
      // LOGIC: Add a sample goal
 void addGoal(){
 setState(() {
 goals.add({'subject': 'Java Programming', 'hours': '2 Hours','done': false,});});
-}
 }
 }
 
