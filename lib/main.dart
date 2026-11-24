@@ -38,11 +38,11 @@ class _StudyPlannerScreenState extends State<StudyPlannerScreen> {
       'subject': 'Flutter Development','hours': '2 Hours','done': false,
     },
   ];
+  // Logic: Toggle goal completion
+void ToggleGoal(int index){
+ setState(() { goals[index]['done'] = !goals[index]['done'];
+ });
 }
 
-// Logic: Toggle goal completion
-void ToggleGoal(int index){
- setState(() { goals[index]['done']=!goals[index]=['done'];
- });
 
-  }
+  
