@@ -31,7 +31,9 @@ class StudyPlannerScreen  extends StatelessWidget {
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          
+          // Static: Screen heading
+          const Text('My study Goal,style:TextStyle(fontSize:24,fontWeight:fontWeight.bold,),),
+
         ],
       )
 
