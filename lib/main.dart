@@ -65,6 +65,11 @@ class StudyPlannerScreen  extends StatelessWidget {
             
             ),
           ),
+          // Static Floating action button
+          FloatingActionButton:FloatingActionButton(onPressed: (){},
+          child: const Icon(Icons.add),
+          
+          )
           ],
 
       
