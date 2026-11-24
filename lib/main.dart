@@ -27,8 +27,15 @@ class StudyPlannerScreen  extends StatelessWidget {
     ),
     // Static: main screen content
     body: Padding(
-      padding: const EdgeInsetsGeometry.all(value),
-    )
+      padding: const EdgeInsets.all(16.0),
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          
+        ],
+      )
+
+   )
 
   }
 }
