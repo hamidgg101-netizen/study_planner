@@ -6,7 +6,6 @@ import 'package:flutter/material.dart';
 void main() {
   runApp(const MyApp());
 }
-
 // STATIC: Main application widget
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
