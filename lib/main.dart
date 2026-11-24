@@ -65,16 +65,13 @@ class StudyPlannerScreen  extends StatelessWidget {
             
             ),
           ),
-          // Static Floating action button
-          FloatingActionButton:FloatingActionButton(onPressed: (){},
-          child: const Icon(Icons.add),
-          
-          )
-          ],
-
-      
+           ],
       ),
     ),
+          // Static Floating action button
+      floatingActionButton:FloatingActionButton(onPressed: (){},
+          child: const Icon(Icons.add),
+          ),
     );
   }
 }
