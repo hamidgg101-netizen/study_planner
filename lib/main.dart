@@ -71,3 +71,35 @@ const Text(
   'My Study Goals', style: TextStyle(fontSize: 24,fontWeight: FontWeight.bold,),
 ),
  ),
+ const SizedBox(height:16),
+  // CONNECTION 1: Connect goals data to the UI
+Expanded(  child: ListView.builder(itemCount: goals.length,
+itemBuilder: (context,index){
+  return Card(
+    child: ListTile(leading: Checkbox(value: goals[index]['done'],
+    onChanged: (value){
+      toggleGoal(index);
+    },
+    ),
+  title: Text
+  (goals[index]['subject'],style: TextStyle( decoration: goals[index]['done']
+  ? TextDecoration.lineThrough:TextDecoration.none,
+  ),),
+  subtitle: Text(goals[index]['hours']),
+  trailing:IconButton(icon:const Icon(Icons.delete,
+  ),
+    onPressed: () {
+   deleteGoal(index);
+    },
+  ),
+  onTap: (){
+     toggleGoal(index);
+    },
+                    ),
+                  );
+                },
+              ),
+            ),
+          ],
+        ),
+      ),
