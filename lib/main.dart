@@ -20,6 +20,9 @@ class StudyPlannerScreen  extends StatelessWidget {
   const StudyPlannerScreen({super.key});
   @override
   Widget build(BuildContext context) {
+    return Scaffold(
+      // static: Application bar
+    )
     
   }
 }
