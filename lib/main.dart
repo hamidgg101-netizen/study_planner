@@ -52,7 +52,7 @@ void addGoal(){
 setState(() {
 goals.add({'subject': 'Java Programming', 'hours': '2 Hours','done': false,});});
 }
-}
+
 @override
 Widget build(BuildContext context){
   return Scaffold(
@@ -70,7 +70,4 @@ foregroundColor: Colors.white,
 const Text(
   'My Study Goals', style: TextStyle(fontSize: 24,fontWeight: FontWeight.bold,),
 ),
-  ],
- )
-  )
-}
+ ),
