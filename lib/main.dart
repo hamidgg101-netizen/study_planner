@@ -18,6 +18,9 @@ class MyApp extends StatelessWidget{
   }
 }
 // STATIC: Main study planner screen
-class StudyPlannerScreen extends
-
-)
+class StudyPlannerScreen extends StatefulWidget {
+  const StudyPlannerScreen({super.key});
+  @override
+   State<StudyPlannerScreen> createState() =>_StudyPlannerScreenState();
+      
+}
