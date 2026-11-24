@@ -44,6 +44,19 @@ class StudyPlannerScreen  extends StatelessWidget {
               trailing: const Icon(Icons.flag),
             )
           )
+          //Static:Second goal
+            Card(
+            child: ListTile(
+              leading: const Icon(
+                  Icons.computer,
+                  color: Colors.green,),
+                   title: const Text('Flutter Development'),
+                   subtitle: const Text('2 Hours'),
+                   trailing: const Text('Icons.flag'),
+              
+            ),
+                ),
+
           //
           ],
 
