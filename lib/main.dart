@@ -33,7 +33,10 @@ class StudyPlannerScreen  extends StatelessWidget {
       children: [
           // Static: Screen heading
         const Text(
-          'My study Goal',style: TextStyle(fontWeight: FontWeight.bold,),),],
+          'My study Goal',style: TextStyle(fontWeight: FontWeight.bold,),),
+          const SizedBox(height: 16),
+          // static first goal card
+          ],
 
       
       ),
