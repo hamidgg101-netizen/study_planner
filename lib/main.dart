@@ -66,7 +66,10 @@ foregroundColor: Colors.white,
  body: Padding(padding: const EdgeInsets.all(16.0),
  child:Column(
   crossAxisAlignment: CrossAxisAlignment.start, children: [
-    
+   // STATIC: Screen heading
+const Text(
+  'My Study Goals', style: TextStyle(fontSize: 24,fontWeight: FontWeight.bold,),
+),
   ],
  )
   )
