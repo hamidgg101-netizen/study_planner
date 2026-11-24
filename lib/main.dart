@@ -42,7 +42,7 @@ class _StudyPlannerScreenState extends State<StudyPlannerScreen> {
 void ToggleGoal(int index){
  setState(() { goals[index]['done'] = !goals[index]['done'];
  });
+  // LOGIC: Delete a goal
+void deleteGoal(int index) {
+    setState(() {  goals.removeAt(index); });
 }
-
-
-  
