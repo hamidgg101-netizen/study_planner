@@ -55,7 +55,16 @@ class StudyPlannerScreen  extends StatelessWidget {
             ),
                 ),
 
-          //
+          // Static:Third goal card
+      Card(
+            child:ListTile(
+              leading: const Icon(Icons.storage,color: Colors.orange,),
+            title: const Text('Database System'),
+            subtitle: const Text('1 Hours'),
+            trailing: const Icon(Icons.flag),
+            
+            ),
+          ),
           ],
 
       
