@@ -62,5 +62,12 @@ appBar: AppBar(
 backgroundColor: const Color.fromARGB(255,14,76,128),
 foregroundColor: Colors.white,
 ),
+ // STATIC: Main screen content
+ body: Padding(padding: const EdgeInsets.all(16.0),
+ child:Column(
+  crossAxisAlignment: CrossAxisAlignment.start, children: [
+    
+  ],
+ )
   )
 }
