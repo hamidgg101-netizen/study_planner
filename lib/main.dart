@@ -36,6 +36,15 @@ class StudyPlannerScreen  extends StatelessWidget {
           'My study Goal',style: TextStyle(fontWeight: FontWeight.bold,),),
           const SizedBox(height: 16),
           // static first goal card
+          Card(
+            child: ListTile(
+              leading: const Icon(Icons.book,color: Colors.blue,),
+              title: const Text('Dart Programming'),
+              subtitle: const Text ('3 Hours'),
+              trailing: const Icon(Icons.flag),
+            )
+          )
+          //
           ],
 
       
