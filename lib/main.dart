@@ -39,3 +39,10 @@ class _StudyPlannerScreenState extends State<StudyPlannerScreen> {
     },
   ];
 }
+
+// Logic: Toggle goal completion
+void ToggleGoal(int index){
+ setState(() { goals[index]['done']=!goals[index]=['done'];
+ });
+
+  }
