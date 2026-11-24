@@ -70,7 +70,7 @@ foregroundColor: Colors.white,
 const Text(
   'My Study Goals', style: TextStyle(fontSize: 24,fontWeight: FontWeight.bold,),
 ),
- ),
+ 
  const SizedBox(height:16),
   // CONNECTION 1: Connect goals data to the UI
 Expanded(  child: ListView.builder(itemCount: goals.length,
