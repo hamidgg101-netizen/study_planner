@@ -14,5 +14,12 @@ class MyApp extends StatelessWidget {
 // static: Home screen
 home: const StudyPlannerScreen(),);
     }
-
+}
+// Static:main study planner screen
+class StudyPlannerScreen  extends StatelessWidget {
+  const StudyPlannerScreen({super.key});
+  @override
+  Widget build(BuildContext context) {
+    
+  }
 }
