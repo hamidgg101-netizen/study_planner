@@ -35,7 +35,7 @@ class StudyPlannerScreen  extends StatelessWidget {
         const Text(
           'My study Goal',style: TextStyle(fontWeight: FontWeight.bold,),),],
 
-      ],
+      
       ),
     ),
     );
