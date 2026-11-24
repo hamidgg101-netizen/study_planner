@@ -22,7 +22,9 @@ class StudyPlannerScreen  extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       // static: Application bar
-    )
+      appBar: AppBar( title: const Text('My study planner'),
+      centerTitle: true,  backgroundColor: const Color.fromARGB(255, 14, 76, 128), foregroundColor: Colors.white,),
+    ),
     
   }
 }
