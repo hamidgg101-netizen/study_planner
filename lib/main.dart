@@ -25,6 +25,10 @@ class StudyPlannerScreen  extends StatelessWidget {
       appBar: AppBar( title: const Text('My study planner'),
       centerTitle: true,  backgroundColor: const Color.fromARGB(255, 14, 76, 128), foregroundColor: Colors.white,),
     ),
-    
+    // Static: main screen content
+    body: Padding(
+      padding: const EdgeInsetsGeometry.all(value),
+    )
+
   }
 }
